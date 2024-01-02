@@ -1,0 +1,113 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' type='text/css' media='screen' href='formato.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='receitas.css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Cadastro de Usuário</title>
+</head>
+
+<body>
+    <!-- Menu de Navegação (Navbar) -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Logo-->
+        <a href="" class="navbar-brand">Cheffe Panda</a>
+        <!-- Menu Hamburguer -->
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao"
+                aria-controls="navegacao" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navegação-->
+            <div class="collapse navbar-collapse" id="navegacao">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="receitas.html" class="nav-link">Receitas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="registro.html" class="nav-link">Registro</a>
+                    </li>
+
+                </ul>
+                <!--Pesquisa Obs apenas complemento ainda precisa implantar as funcionalidades
+				colocado apenas por questão de estetica para futuras alterações-->
+                <form class="from-inline">
+                    <input type="text" class="from-control" placeholder="Pesquisar...">
+                    <button class="btn btn-outline-success">Ok</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1 mt-5">
+                <h1 class="text-center">Cadastro de Usuário</h1>
+                <hr>
+                <h3>Efetue seu cadastro:</h3>
+                <form action="https://formsubmit.co/romes_iii@hotmail.com" method="POST">
+                    <div class="row">
+                        <div class="col-sm">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <label for="rua" class="form-label">Rua</label>
+                            <input type="text" class="form-control" id="rua" name="rua" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="numero" class="form-label">Número</label>
+                            <input type="text" class="form-control" id="numero" name="numero" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="complemento" class="form-label">Complemento</label>
+                        <input type="text" class="form-control" id="complemento" name="complemento" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <label for="cidade" class="form-label">Cidade</label>
+                            <input type="text" class="form-control" id="cidade" name="cidade" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="estado" class="form-label">Estado</label>
+                            <input type="text" class="form-control" id="estado" name="estado" required>
+                        </div>
+                        <div class="col-sm">
+                            <label for="cep" class="form-label">CEP</label>
+                            <input type="text" class="form-control" id="cep" name="cep" required>
+                        </div>
+                    </div><br />
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </div><br /><br />
+
+    <!-- Rodapé -->
+    <footer>&copy; Cheffe Panda 2023 </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

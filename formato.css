@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: rgba(52, 30, 30, 0.7);
+    background: linear-gradient(#ffffff 60%, #ffffff);
+}
+
+nav {
+    border-bottom: 1px solid #000000;
+}
+
+h1 {
+    color: rgba(52, 30, 30, 0.9);
+}
+
+h3 {
+    font-size: 24px;
+}
+
+main {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 20;
+    overflow: 20px;
+}
+
+main.center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 240px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
